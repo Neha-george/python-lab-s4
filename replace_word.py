@@ -1,0 +1,6 @@
+replaces =input("enter the word to be replaced in sentence :")
+replace=input("enter the word that replaces : ")
+sen = input("enter the sentence : ")
+new_sen = sen.replace(replaces,replace)
+print("old sentence :",sen)
+print("new sentence :",new_sen)
